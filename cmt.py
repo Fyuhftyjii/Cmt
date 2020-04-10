@@ -1,3 +1,4 @@
+nano 4.9.1                                                    onlycmt.py
 import httplib, urllib
 from bs4 import BeautifulSoup
 import os
@@ -22,8 +23,8 @@ def comment(url):
                         'message':msg,
                         'access_token':access_token
                   }
-            connect = httplib.HTTPSConnection("graph.facebook.c>
-            connect.request("POST",path,urllib.urlencode(param_>
+            connect = httplib.HTTPSConnection("graph.facebook.com")
+            connect.request("POST",path,urllib.urlencode(param_data),{})
             time.sleep(10.09)
 
 
