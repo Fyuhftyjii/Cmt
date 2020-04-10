@@ -1,4 +1,3 @@
-nano 4.9.1                                                    onlycmt.py
 import httplib, urllib
 from bs4 import BeautifulSoup
 import os
